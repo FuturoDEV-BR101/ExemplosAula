@@ -40,5 +40,6 @@ public class M01S01A02E02 {
             System.out.println("Aluno Reprovado");
         }
     
+        entrada.close();
     }
 }

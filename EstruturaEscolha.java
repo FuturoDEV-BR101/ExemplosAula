@@ -13,13 +13,13 @@ public class EstruturaEscolha {
 
         //utilização do IF com ELSE
         if ( media < 7 ){
-            System.out.println("Não Aprovado!");
+            System.out.println(nome + " Não Aprovado!");
         } else {
-            System.out.println("Aprovado!");
+            System.out.println(nome + " Aprovado!");
         }
 
         //Utilização do Operador Ternário
-        System.out.println( (media < 7 ) ? "Não Aprodado!" : "Aprovado!" );
+        System.out.println( (media < 7 ) ? nome + " Não Aprodado!" : nome + " Aprovado!" );
     }
 
 
